@@ -26,6 +26,11 @@ $app = new Application();
 |
 */
 return $app
-    ->withBasePath($basePath)
-    ->configure($app)
+    ->withBasePath(basePath: $basePath)
+    ->setRelaxablePaths(relaxablePaths: [
+        // The paths listed below will bypass CSRF token verification.
+        // '/webhook/payment' – bypasses only the '/webhook/payment' URI.
+        // '/webhook/*' – bypasses all URIs that start with '/webhook'.
+    ])
+    ->configure(app: $app)
     ->build();
