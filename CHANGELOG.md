@@ -1,5 +1,17 @@
 # Release Notes
 
+## v2.4.3 - 2025-08-02
+
+### What's Changed
+
+* auth model dynamic by [@techmahedy](https://github.com/techmahedy) in https://github.com/doppar/doppar/pull/4
+
+### New Contributors
+
+* [@techmahedy](https://github.com/techmahedy) made their first contribution in https://github.com/doppar/doppar/pull/4
+
+**Full Changelog**: https://github.com/doppar/doppar/compare/v2.4.2...v2.4.3
+
 ## v2.4.2 - 2025-07-25
 
 **Full Changelog**: https://github.com/doppar/doppar/compare/v2.4.1...v2.4.2
