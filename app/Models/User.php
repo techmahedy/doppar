@@ -25,14 +25,14 @@ class User extends Model
      *
      * @var array
      */
-    protected $creatable = ["name", "email", "password", "remember_token"];
+    protected $creatable = ["name", "email", "password", "remember_token", "two_factor_secret", "two_factor_recovery_codes"];
 
     /**
      * The attributes that should be hidden for arrays and JSON.
      *
      * @var array
      */
-    protected $unexposable = ["password", "remember_token"];
+    protected $unexposable = ["password", "remember_token", "two_factor_secret", "two_factor_recovery_codes"];
 
     /**
      * Default page size for pagination
