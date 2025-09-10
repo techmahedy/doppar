@@ -7,13 +7,6 @@ use Phaseolies\Database\Eloquent\Model;
 class User extends Model
 {
     /**
-     * The primary key associated with the table.
-     *
-     * @var string
-     */
-    protected $primaryKey = "id";
-
-    /**
      * The table associated with the model.
      *
      * @var string
@@ -33,18 +26,4 @@ class User extends Model
      * @var array
      */
     protected $unexposable = ["password", "remember_token", "two_factor_secret", "two_factor_recovery_codes"];
-
-    /**
-     * Default page size for pagination
-     *
-     * @var int
-     */
-    protected $pageSize = 10;
-
-    /**
-     * Indicates whether the model should maintain timestamps
-     *
-     * @var bool
-     */
-    protected $timeStamps = true;
 }
