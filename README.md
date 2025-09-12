@@ -11,7 +11,7 @@
 <a href="https://github.com/doppar/framework/blob/main/LICENSE"><img src="https://img.shields.io/github/license/doppar/framework" alt="License"></a>
 </p>
 
-## Why Doppar?
+## About Doppar
 
 The high-performance, minimalist PHP framework for developers who need raw speed and are willing to build their own application layer
 
