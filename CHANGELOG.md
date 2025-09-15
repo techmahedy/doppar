@@ -1,5 +1,9 @@
 # Release Notes
 
+## v2.4.8 - 2025-09-15
+
+**Full Changelog**: https://github.com/doppar/doppar/compare/v2.4.7...v2.4.8
+
 ## v2.4.7 - 2025-09-11
 
 **Full Changelog**: https://github.com/doppar/doppar/compare/v2.4.6...v2.4.7
