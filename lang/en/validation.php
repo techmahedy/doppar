@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'default' => 'The given data was invalid.',
     'required' => 'The :attribute field is required',
     'email' => 'The :attribute must be a valid email address.',
     'min' => [
@@ -33,5 +34,9 @@ return [
     ],
     'rate_limit' => [
         'error' => 'Too Many Attempts. Please try again after :attribute seconds.',
-    ]
+        'message' => 'Your request could not be completed due to too many attempts',
+    ],
+    'unauthorized' => [
+        'message' => 'You are not authorized to perform this action.'
+    ],
 ];

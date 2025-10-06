@@ -11,6 +11,7 @@
 | load all required dependencies and libraries
 |
 */
+
 require __DIR__ . '/vendor/autoload.php';
 
 /*
@@ -22,10 +23,11 @@ require __DIR__ . '/vendor/autoload.php';
 | This sets up the service container, configuration, and prepares the app for use
 |
 */
+
 $app = require_once __DIR__ . '/bootstrap/app.php';
 
-// Retrieve the console kernel from the application container
-// The console kernel is responsible for handling CLI commands
+// Retrieve the console from the application container
+// The console is responsible for handling CLI commands
 $console = $app->make('console');
 
 // Execute the console application
