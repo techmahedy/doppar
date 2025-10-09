@@ -2,10 +2,21 @@
 
 /*
 |--------------------------------------------------------------------------
-| Loading application web routes
+| Loading Application Web Routes
 |--------------------------------------------------------------------------
+|
+| You can define your routes here using the traditional Route facade.
+| 
+| Doppar also supports Attribute-Based Routing for a modern approach.
+| That means you can use both:
+|
+| Attribute Routes → Use #[Route(...)] inside your controllers
+| Facade Routes    → Define routes here using Phaseolies\Support\Facades\Route
+|
+| Feel free to mix and match both styles as needed!
+|
 */
 
-use Phaseolies\Support\Facades\Route;
+// use Phaseolies\Support\Facades\Route;
 
-Route::get("/", fn() => view('welcome'))->name("home");
+// Route::get("/", fn() => view('welcome'))->name("home");
