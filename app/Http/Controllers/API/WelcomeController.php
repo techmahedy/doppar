@@ -13,7 +13,7 @@ class WelcomeController extends Controller
      *
      * @return JsonResponse
      */
-    #[Route(path: '/api/welcome')]
+    #[Route(uri: 'api/welcome')]
     public function welcome(): JsonResponse
     {
         return response()->json([

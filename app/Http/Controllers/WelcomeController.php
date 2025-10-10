@@ -13,7 +13,7 @@ class WelcomeController extends Controller
      *
      * @return Response
      */
-    #[Route(path: '/', name: 'home')]
+    #[Route(uri: '/', name: 'home')]
     public function welcome(): Response
     {
         return view('welcome');
