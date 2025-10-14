@@ -1,5 +1,13 @@
 # Release Notes
 
+## 2.5.3 - 2025-10-14
+
+### What's Changed
+
+* email and welcome page updated: by [@techmahedy](https://github.com/techmahedy) in https://github.com/doppar/doppar/pull/5
+
+**Full Changelog**: https://github.com/doppar/doppar/compare/v2.5.2...2.5.3
+
 ## v2.5.2 - 2025-10-10
 
 **Full Changelog**: https://github.com/doppar/doppar/compare/v2.5.1...v2.5.2
