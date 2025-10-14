@@ -13,7 +13,6 @@
         <header>
             <img src="{{ enqueue('logo.png') }}" alt="Logo" />
             <h2>Welcome to Doppar</h2>
-
         </header>
         <section class="cta-box">
             <h3>{{ trans('messages.welcome', ['version' => 'v' . Application::VERSION]) }}</h3>
