@@ -5,11 +5,11 @@
 | Database Configuration
 |--------------------------------------------------------------------------
 |
-| This configuration file defines the database connection settings for the 
-| application. It supports database connections MySQL.  Database credentials and settings are primarily 
+| This configuration file defines the database connection settings for the
+| application. It supports database connections MySQL and SQLite.  Database credentials and settings are primarily
 | loaded from the ".env" file to maintain security and flexibility.
 |
-| Supported Drivers: mysql
+| Supported Drivers: mysql, sqlite
 |
 */
 
@@ -17,6 +17,15 @@ return [
     'default' => env('DB_CONNECTION', 'mysql'),
 
     'connections' => [
+
+        'sqlite' => [
+            'driver' => 'sqlite',
+            'url' => env('DATABASE_URL'),
+            'database' => env('DB_DATABASE', database_path('database.sqlite')),
+            'prefix' => '',
+            'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
+        ],
+
         'mysql' => [
             'driver' => 'mysql',
             'host' => env('DB_HOST', '127.0.0.1'),
