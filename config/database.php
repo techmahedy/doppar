@@ -5,11 +5,11 @@
 | Database Configuration
 |--------------------------------------------------------------------------
 |
-| This configuration file defines the database connection settings for the 
-| application. It supports database connections MySQL.  Database credentials and settings are primarily
+| This configuration file defines the database connection settings for the
+| application. It supports database connections MySQL and SQLite.  Database credentials and settings are primarily
 | loaded from the ".env" file to maintain security and flexibility.
 |
-| Supported Drivers: mysql
+| Supported Drivers: mysql, sqlite
 |
 */
 
