@@ -50,7 +50,7 @@
             "Phaseolies\\Installer::postCreateProject",
             "@php pool key:generate --ansi",
             "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
-            "@php pool boost --ansi"
+            "@php pool boost --ansi",
             "@php pool migrate --ansi"
         ],
         "post-root-package-install": [
