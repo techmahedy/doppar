@@ -1,5 +1,13 @@
 # Release Notes
 
+## 2.5.5 - 2025-10-15
+
+### What's Changed
+
+* Skeleton by [@techmahedy](https://github.com/techmahedy) in https://github.com/doppar/doppar/pull/7
+
+**Full Changelog**: https://github.com/doppar/doppar/compare/2.5.4...2.5.5
+
 ## 2.5.4 - 2025-10-15
 
 ### What's Changed
