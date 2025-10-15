@@ -6,7 +6,7 @@
 |--------------------------------------------------------------------------
 |
 | You can define your routes here using the traditional Route facade.
-| 
+|
 | Doppar also supports Attribute-Based Routing for a modern approach.
 | That means you can use both:
 |

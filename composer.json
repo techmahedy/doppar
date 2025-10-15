@@ -34,9 +34,23 @@
         }
     },
     "scripts": {
+        "setup": [
+            "composer install",
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
+            "@php pool key:generate",
+            "@php pool migrate"
+        ],
+        "dev": [
+            "Composer\\Config::disableProcessTimeout"
+        ],
+        "test": [
+            "@php pool config:clear --ansi"
+        ],
         "post-create-project-cmd": [
             "Phaseolies\\Installer::postCreateProject",
-            "@php pool key:generate --ansi"
+            "@php pool key:generate --ansi",
+            "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
+            "@php pool migrate --ansi"
         ],
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
