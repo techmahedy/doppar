@@ -1,5 +1,21 @@
 # Release Notes
 
+## 2.5.4 - 2025-10-15
+
+### What's Changed
+
+* Adding sqlite for default database driver by [@techmahedy](https://github.com/techmahedy) in https://github.com/doppar/doppar/pull/6
+
+**Full Changelog**: https://github.com/doppar/doppar/compare/2.5.3...2.5.4
+
+## 2.5.3 - 2025-10-14
+
+### What's Changed
+
+* email and welcome page updated: by [@techmahedy](https://github.com/techmahedy) in https://github.com/doppar/doppar/pull/5
+
+**Full Changelog**: https://github.com/doppar/doppar/compare/v2.5.2...2.5.3
+
 ## v2.5.2 - 2025-10-10
 
 **Full Changelog**: https://github.com/doppar/doppar/compare/v2.5.1...v2.5.2
