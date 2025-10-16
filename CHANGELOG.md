@@ -1,5 +1,13 @@
 # Release Notes
 
+## 2.5.6-beta - 2025-10-16
+
+### What's Changed
+
+* composer.json updated for beta environment by [@techmahedy](https://github.com/techmahedy) in https://github.com/doppar/doppar/pull/8
+
+**Full Changelog**: https://github.com/doppar/doppar/compare/2.5.5...2.5.6-beta
+
 ## 2.5.5 - 2025-10-15
 
 ### What's Changed
