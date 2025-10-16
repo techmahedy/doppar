@@ -47,8 +47,10 @@
             "@php pool config:clear --ansi"
         ],
         "post-create-project-cmd": [
+            "Phaseolies\\Installer::preInstall",
             "Phaseolies\\Installer::postCreateProject",
             "@php pool key:generate --ansi",
+            "@php pool package:install --ansi",
             "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
             "@php pool boost --ansi",
             "@php pool migrate --ansi"
@@ -65,6 +67,6 @@
             "php-http/discovery": true
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "beta",
     "prefer-stable": true
 }
