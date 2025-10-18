@@ -67,6 +67,21 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Sensitive Input Exclusions
+    |--------------------------------------------------------------------------
+    |
+    | Define the list of sensitive input fields that should never be stored
+    | in the session. This helps protect sensitive data such as passwords
+    | from being exposed or persisted.
+    |
+    */
+    "exclude_sensitive_input" => [
+        'password',
+        '_insight_redirect_chain'
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
     | Application Locale Configuration
     |--------------------------------------------------------------------------
     |
