@@ -1,5 +1,37 @@
 # Release Notes
 
+## 2.5.6-beta.2 - 2025-10-18
+
+This update introduces a before-exception hook that enables logging of exceptions before they are thrown in the Doppar application.
+
+It enhances observability and debugging by capturing exception context at the earliest possible stage.
+
+With this change, developers can now easily handle exceptions at the application level, allowing for more flexible and consistent error management.
+
+This update enhances session input handling by preventing sensitive user data, such as passwords and other important fields, from being stored in the session
+
+The list of excluded fields is now configurable via config/app.php, allowing developers to easily customize it based on their application’s security requirements.
+
+Benefits
+
+Enhanced Security: Prevents exposure of confidential data in session storage.
+Better Maintainability: Centralized exclusion list for sensitive fields.
+
+```
+
+"exclude_sensitive_input" => [
+        'password',
+        '_insight_redirect_chain'
+],
+
+
+```
+### What's Changed
+
+* [feat] before-exception hook for improved exception logging by [@techmahedy](https://github.com/techmahedy) in https://github.com/doppar/doppar/pull/10
+
+**Full Changelog**: https://github.com/doppar/doppar/compare/2.5.6-beta.1...2.5.6-beta.2
+
 ## 2.5.6-beta.1 - 2025-10-16
 
 ### What's Changed
