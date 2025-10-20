@@ -1,5 +1,13 @@
 # Release Notes
 
+## 2.5.6-beta.3 - 2025-10-20
+
+### What's Changed
+
+* postgresql database driver supported by [@techmahedy](https://github.com/techmahedy) in https://github.com/doppar/doppar/pull/12
+
+**Full Changelog**: https://github.com/doppar/doppar/compare/2.5.6-beta.2...2.5.6-beta.3
+
 ## 2.5.6-beta.2 - 2025-10-18
 
 This update introduces a before-exception hook that enables logging of exceptions before they are thrown in the Doppar application.
@@ -23,6 +31,7 @@ Better Maintainability: Centralized exclusion list for sensitive fields.
         'password',
         '_insight_redirect_chain'
 ],
+
 
 
 ```
