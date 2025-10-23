@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use Phaseolies\Database\Eloquent\Model;
+use Phaseolies\Database\Entity\Model;
 
 class User extends Model
 {
@@ -18,12 +18,24 @@ class User extends Model
      *
      * @var array
      */
-    protected $creatable = ["name", "email", "password", "remember_token", "two_factor_secret", "two_factor_recovery_codes"];
+    protected $creatable = [
+        "name",
+        "email",
+        "password",
+        "remember_token",
+        "two_factor_secret",
+        "two_factor_recovery_codes"
+    ];
 
     /**
      * The attributes that should be hidden for arrays and JSON.
      *
      * @var array
      */
-    protected $unexposable = ["password", "remember_token", "two_factor_secret", "two_factor_recovery_codes"];
+    protected $unexposable = [
+        "password",
+        "remember_token",
+        "two_factor_secret",
+        "two_factor_recovery_codes"
+    ];
 }
