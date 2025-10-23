@@ -1,5 +1,13 @@
 # Release Notes
 
+## 2.5.6-beta.4 - 2025-10-23
+
+### What's Changed
+
+* Entity ORM namespace added by [@techmahedy](https://github.com/techmahedy) in https://github.com/doppar/doppar/pull/13
+
+**Full Changelog**: https://github.com/doppar/doppar/compare/2.5.6-beta.3...2.5.6-beta.4
+
 ## 2.5.6-beta.3 - 2025-10-20
 
 ### What's Changed
@@ -31,6 +39,7 @@ Better Maintainability: Centralized exclusion list for sensitive fields.
         'password',
         '_insight_redirect_chain'
 ],
+
 
 
 
