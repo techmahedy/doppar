@@ -6,7 +6,7 @@
 |--------------------------------------------------------------------------
 |
 | This configuration file defines the database connection settings for the
-| application. It supports database connections MySQL, SQLite and PostgreSQL.  Database credentials and settings are primarily
+| application. It supports database connections MySQL, SQLite and PostgreSQL. Database credentials and settings are primarily
 | loaded from the ".env" file to maintain security and flexibility.
 |
 | Supported Drivers: mysql, sqlite, pgsql
@@ -45,7 +45,6 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'url' => env('DB_URL'),
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '5432'),
             'database' => env('DB_DATABASE', 'doppar'),
