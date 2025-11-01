@@ -3,6 +3,7 @@
 return [
     'default' => 'The given data was invalid.',
     'required' => 'The :attribute field is required',
+    'exists_in' => 'The selected :attribute is invalid.',
     'email' => 'The :attribute must be a valid email address.',
     'min' => [
         'string' => 'The :attribute must be at least :min characters.',
