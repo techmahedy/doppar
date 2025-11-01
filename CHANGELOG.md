@@ -1,5 +1,14 @@
 # Release Notes
 
+## v3.0.0-beta.0 - 2025-11-01
+
+### What's Changed
+
+* README.md updated by [@techmahedy](https://github.com/techmahedy) in https://github.com/doppar/doppar/pull/14
+* exists_in new input validation key by [@techmahedy](https://github.com/techmahedy) in https://github.com/doppar/doppar/pull/15
+
+**Full Changelog**: https://github.com/doppar/doppar/compare/2.5.6-beta.4...v3.0.0-beta.0
+
 ## 2.5.6-beta.4 - 2025-10-23
 
 ### What's Changed
@@ -39,6 +48,7 @@ Better Maintainability: Centralized exclusion list for sensitive fields.
         'password',
         '_insight_redirect_chain'
 ],
+
 
 
 
