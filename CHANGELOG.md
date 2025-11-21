@@ -1,5 +1,13 @@
 # Release Notes
 
+## v3.0.0-beta.2 - 2025-11-21
+
+### What's Changed
+
+* adding verify 2fa user middleware to increase security by [@techmahedy](https://github.com/techmahedy) in https://github.com/doppar/doppar/pull/17
+
+**Full Changelog**: https://github.com/doppar/doppar/compare/v3.0.0-beta.1...v3.0.0-beta.2
+
 ## v3.0.0-beta.1 - 2025-11-03
 
 ### What's Changed
@@ -56,6 +64,7 @@ Better Maintainability: Centralized exclusion list for sensitive fields.
         'password',
         '_insight_redirect_chain'
 ],
+
 
 
 
