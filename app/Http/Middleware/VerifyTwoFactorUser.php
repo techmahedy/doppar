@@ -2,13 +2,17 @@
 
 namespace App\Http\Middleware;
 
-use Closure;
-use Phaseolies\Http\Request;
-use Phaseolies\Http\Response;
 use Phaseolies\Middleware\Contracts\Middleware;
+use Phaseolies\Http\Support\InteractsWithVerifyTwoFactorUser;
+use Phaseolies\Http\Response;
+use Phaseolies\Http\Request;
+use Phaseolies\Http\Exceptions\InvalidTwoFactorSessionException;
+use Closure;
 
 class VerifyTwoFactorUser implements Middleware
 {
+    use InteractsWithVerifyTwoFactorUser;
+
     /**
      * Handle an incoming request.
      *
@@ -18,16 +22,10 @@ class VerifyTwoFactorUser implements Middleware
      */
     public function __invoke(Request $request, Closure $next): Response
     {
-        if (!session()->has('2fa:user:id')) {
-            return redirect('/login')->withError('Please login first');
-        }
+        $result = $this->validateTwoFactorSession($request->session());
 
-        $timestamp = session()->get('2fa:timestamp');
-        if ($timestamp && (time() - $timestamp) > 300) {
-            session()->forget('2fa:user:id');
-            session()->forget('2fa:timestamp');
-
-            return redirect('/login')->withError('Two-factor authentication session expired');
+        if ($result === false) {
+            throw new InvalidTwoFactorSessionException('Invalid or expired 2FA session.');
         }
 
         return $next($request);
