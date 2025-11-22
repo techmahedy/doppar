@@ -1,5 +1,13 @@
 # Release Notes
 
+## v3.0.0-beta.4 - 2025-11-22
+
+### What's Changed
+
+* Introducing [odo] template engine for doppar by [@techmahedy](https://github.com/techmahedy) in https://github.com/doppar/doppar/pull/19
+
+**Full Changelog**: https://github.com/doppar/doppar/compare/v3.0.0-beta.3...v3.0.0-beta.4
+
 ## v3.0.0-beta.3 - 2025-11-22
 
 ### What's Changed
@@ -72,6 +80,7 @@ Better Maintainability: Centralized exclusion list for sensitive fields.
         'password',
         '_insight_redirect_chain'
 ],
+
 
 
 
