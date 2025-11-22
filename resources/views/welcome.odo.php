@@ -11,11 +11,11 @@
     </head>
     <body>
         <header>
-            <img src="{{ enqueue('logo.png') }}" alt="Logo" />
+            <img src="[[ enqueue('logo.png') ]]" alt="Logo" />
             <h2>Welcome to Doppar</h2>
         </header>
         <section class="cta-box">
-            <h3>{{ trans('messages.welcome', ['version' => 'v' . Application::VERSION]) }}</h3>
+            <h3>[[ trans('messages.welcome', ['version' => 'v' . Application::VERSION]) ]]</h3>
             <p>Craft Fast-Loading PHP Application</p>
         </section>
         <section class="grid">
@@ -42,7 +42,7 @@
             <a href="https://doppar.com" class="btn">Website</a>
         </div>
         <div class="footer">
-            PHP {{ phpversion() }}
+            PHP [[ phpversion() ]]
         </div>
     </body>
 </html>
