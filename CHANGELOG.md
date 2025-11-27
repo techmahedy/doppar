@@ -1,5 +1,18 @@
 # Release Notes
 
+## v3.0.0-beta.5 - 2025-11-27
+
+### What's Changed
+
+* jit variable remove from .env by [@techmahedy](https://github.com/techmahedy) in https://github.com/doppar/doppar/pull/20
+* Fix: Prevent “Headers Already Sent” Error Caused by BOM/Whitespace in Config Files by [@abdulmajidcse](https://github.com/abdulmajidcse) in https://github.com/doppar/doppar/pull/21
+
+### New Contributors
+
+* [@abdulmajidcse](https://github.com/abdulmajidcse) made their first contribution in https://github.com/doppar/doppar/pull/21
+
+**Full Changelog**: https://github.com/doppar/doppar/compare/v3.0.0-beta.4...v3.0.0-beta.5
+
 ## v3.0.0-beta.4 - 2025-11-22
 
 ### What's Changed
@@ -80,6 +93,7 @@ Better Maintainability: Centralized exclusion list for sensitive fields.
         'password',
         '_insight_redirect_chain'
 ],
+
 
 
 
