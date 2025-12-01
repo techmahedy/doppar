@@ -2,25 +2,19 @@
 
 /*
 |--------------------------------------------------------------------------
-| Loading application api routes
+| Application API Routes
 |--------------------------------------------------------------------------
 |
-| You can define your routes here using the traditional Route facade.
+| Register all API endpoints for your application within this file.
+| Doppar allows you to define routes using two different approaches:
 |
-| Doppar also supports Attribute-Based Routing for a modern approach.
-| That means you can use both:
+| • Attribute-Based Routing — Add #[Route(...)] attributes directly
+|   inside your controller methods for a cleaner, modern, and expressive
+|   routing style.
 |
-| Attribute Routes → Use #[Route(...)] inside your controllers
-| Facade Routes    → Define routes here using Phaseolies\Support\Facades\Route
+| • Facade-Based Routing — Use the traditional Route facade to define
+|   routes here in a centralized and familiar way.
 |
-| Feel free to mix and match both styles as needed!
+| You are free to use either method or combine both.
 |
 */
-
-// use Phaseolies\Support\Facades\Route;
-
-// Route::get('welcome', function () {
-//     return response()->json([
-//         'message' => 'Welcome to Doppar. build something amazing'
-//     ], 200);
-// });
