@@ -1,5 +1,13 @@
 # Release Notes
 
+## v3.0.1 - 2025-12-06
+
+### What's Changed
+
+* readme file updated by [@techmahedy](https://github.com/techmahedy) in https://github.com/doppar/doppar/pull/23
+
+**Full Changelog**: https://github.com/doppar/doppar/compare/v3.0.0...v3.0.1
+
 ## v3.0.0-beta.5 - 2025-11-27
 
 ### What's Changed
@@ -93,6 +101,7 @@ Better Maintainability: Centralized exclusion list for sensitive fields.
         'password',
         '_insight_redirect_chain'
 ],
+
 
 
 
