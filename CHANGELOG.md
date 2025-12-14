@@ -1,5 +1,17 @@
 # Release Notes
 
+## 3.1.0 - 2025-12-14
+
+### What's Changed
+
+* [Composer] Always use latest framework version by [@rrr63](https://github.com/rrr63) in https://github.com/doppar/doppar/pull/24
+
+### New Contributors
+
+* [@rrr63](https://github.com/rrr63) made their first contribution in https://github.com/doppar/doppar/pull/24
+
+**Full Changelog**: https://github.com/doppar/doppar/compare/v3.0.1...3.1.0
+
 ## v3.0.1 - 2025-12-06
 
 ### What's Changed
@@ -101,6 +113,7 @@ Better Maintainability: Centralized exclusion list for sensitive fields.
         'password',
         '_insight_redirect_chain'
 ],
+
 
 
 
