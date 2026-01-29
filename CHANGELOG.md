@@ -1,5 +1,13 @@
 # Release Notes
 
+## v3.1.1 - 2026-01-29
+
+### What's Changed
+
+* unit test version update to 12.5 by [@techmahedy](https://github.com/techmahedy) in https://github.com/doppar/doppar/pull/25
+
+**Full Changelog**: https://github.com/doppar/doppar/compare/3.1.0...v3.1.1
+
 ## 3.1.0 - 2025-12-14
 
 ### What's Changed
@@ -113,6 +121,7 @@ Better Maintainability: Centralized exclusion list for sensitive fields.
         'password',
         '_insight_redirect_chain'
 ],
+
 
 
 
