@@ -1,5 +1,13 @@
 # Release Notes
 
+## v3.1.2 - 2026-02-11
+
+### What's Changed
+
+* Fix: PHP 8.5 PDO MySQL Constant Deprecations (Backward Compatible) by [@techmahedy](https://github.com/techmahedy) in https://github.com/doppar/doppar/pull/26
+
+**Full Changelog**: https://github.com/doppar/doppar/compare/v3.1.1...v3.1.2
+
 ## v3.1.1 - 2026-01-29
 
 ### What's Changed
@@ -121,6 +129,7 @@ Better Maintainability: Centralized exclusion list for sensitive fields.
         'password',
         '_insight_redirect_chain'
 ],
+
 
 
 
