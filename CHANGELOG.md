@@ -1,5 +1,14 @@
 # Release Notes
 
+## v3.2.0 - 2026-03-14
+
+### What's Changed
+
+* tests.yml updated for cron test: by [@techmahedy](https://github.com/techmahedy) in https://github.com/doppar/doppar/pull/27
+* multi actor authentication: by [@techmahedy](https://github.com/techmahedy) in https://github.com/doppar/doppar/pull/28
+
+**Full Changelog**: https://github.com/doppar/doppar/compare/v3.1.2...v3.2.0
+
 ## v3.1.2 - 2026-02-11
 
 ### What's Changed
@@ -129,6 +138,7 @@ Better Maintainability: Centralized exclusion list for sensitive fields.
         'password',
         '_insight_redirect_chain'
 ],
+
 
 
 
