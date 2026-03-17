@@ -1,5 +1,13 @@
 # Release Notes
 
+## v3.2.1 - 2026-03-17
+
+### What's Changed
+
+* remove preInstall from composer.json file by [@techmahedy](https://github.com/techmahedy) in https://github.com/doppar/doppar/pull/29
+
+**Full Changelog**: https://github.com/doppar/doppar/compare/v3.2.0...v3.2.1
+
 ## v3.2.0 - 2026-03-14
 
 ### What's Changed
@@ -138,6 +146,7 @@ Better Maintainability: Centralized exclusion list for sensitive fields.
         'password',
         '_insight_redirect_chain'
 ],
+
 
 
 
