@@ -47,7 +47,6 @@
             "@php pool config:clear --ansi"
         ],
         "post-create-project-cmd": [
-            "Phaseolies\\Installer::preInstall",
             "Phaseolies\\Installer::postCreateProject",
             "@php pool key:generate --ansi",
             "@php pool package:install --ansi",
