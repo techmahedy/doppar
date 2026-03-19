@@ -1,5 +1,13 @@
 # Release Notes
 
+## v3.2.2 - 2026-03-19
+
+### What's Changed
+
+* fix: 404 page not found issue after upgrading documentation site vite… by [@techmahedy](https://github.com/techmahedy) in https://github.com/doppar/doppar/pull/30
+
+**Full Changelog**: https://github.com/doppar/doppar/compare/v3.2.1...v3.2.2
+
 ## v3.2.1 - 2026-03-17
 
 ### What's Changed
@@ -146,6 +154,7 @@ Better Maintainability: Centralized exclusion list for sensitive fields.
         'password',
         '_insight_redirect_chain'
 ],
+
 
 
 
