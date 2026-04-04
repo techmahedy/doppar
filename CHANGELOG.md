@@ -1,5 +1,13 @@
 # Release Notes
 
+## v3.2.3 - 2026-04-04
+
+### What's Changed
+
+* adding some new validation rules by [@techmahedy](https://github.com/techmahedy) in https://github.com/doppar/doppar/pull/31
+
+**Full Changelog**: https://github.com/doppar/doppar/compare/v3.2.2...v3.2.3
+
 ## v3.2.2 - 2026-03-19
 
 ### What's Changed
@@ -154,6 +162,7 @@ Better Maintainability: Centralized exclusion list for sensitive fields.
         'password',
         '_insight_redirect_chain'
 ],
+
 
 
 
