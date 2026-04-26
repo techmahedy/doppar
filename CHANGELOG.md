@@ -1,5 +1,14 @@
 # Release Notes
 
+## v3.3.0 - 2026-04-26
+
+### What's Changed
+
+* Readme.md updated by [@techmahedy](https://github.com/techmahedy) in https://github.com/doppar/doppar/pull/32
+* adding frontend install command in composer file by [@techmahedy](https://github.com/techmahedy) in https://github.com/doppar/doppar/pull/33
+
+**Full Changelog**: https://github.com/doppar/doppar/compare/v3.2.3...v3.3.0
+
 ## v3.2.3 - 2026-04-04
 
 ### What's Changed
@@ -162,6 +171,7 @@ Better Maintainability: Centralized exclusion list for sensitive fields.
         'password',
         '_insight_redirect_chain'
 ],
+
 
 
 
