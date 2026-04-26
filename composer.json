@@ -49,10 +49,10 @@
         "post-create-project-cmd": [
             "Phaseolies\\Installer::postCreateProject",
             "@php pool key:generate --ansi",
-            "@php pool package:install --ansi",
             "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
             "@php pool boost --ansi",
-            "@php pool migrate --ansi"
+            "@php pool migrate --ansi",
+            "@php pool frontend:install --force"
         ],
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
