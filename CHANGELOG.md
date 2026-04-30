@@ -1,5 +1,13 @@
 # Release Notes
 
+## v3.4.0 - 2026-04-30
+
+### What's Changed
+
+* Add explicit request termination lifecycle and terminable dispatch result by [@techmahedy](https://github.com/techmahedy) in https://github.com/doppar/doppar/pull/34
+
+**Full Changelog**: https://github.com/doppar/doppar/compare/v3.3.0...v3.4.0
+
 ## v3.3.0 - 2026-04-26
 
 ### What's Changed
@@ -171,6 +179,7 @@ Better Maintainability: Centralized exclusion list for sensitive fields.
         'password',
         '_insight_redirect_chain'
 ],
+
 
 
 
