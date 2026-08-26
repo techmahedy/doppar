@@ -12,3 +12,5 @@ composer.phar
 .phpunit.result.cache
 phpunit.xml.dist
 .idea
+package-lock.json
+/node_modules
