@@ -9,7 +9,7 @@
         "Doppar"
     ],
     "require": {
-        "php": "^8.4",
+        "php": "^8.5",
         "doppar/framework": "4.*"
     },
     "require-dev": {
